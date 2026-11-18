@@ -919,7 +919,7 @@
         <div class="flex justify-between items-center mb-3"><h4 class="text-sm font-bold">Akun Baru</h4><button onclick="closeGenericModal()" class="p-1 rounded-full bg-slate-100">✕</button></div>
         <div class="space-y-2.5">
           <input id="na-name" placeholder="Nama Akun" class="w-full px-3 py-2 text-xs bg-slate-100 rounded-xl" />
-          <select id="na-type" class="w-full px-3 py-2 text-xs bg-slate-100 rounded-xl"><option value="1">Tunai</option><option value="2">Kartu Deposit</option><option value="3">Kartu Kredit</option><option value="4">Akun Virtual</option><option value="5">Berinvestasi</option></select>
+          <select id="na-type" class="w-full px-3 py-2 text-xs bg-slate-100 rounded-xl"><option value="1">Tunai</option><option value="2">Kartu Debit</option><option value="3">Kartu Deposit</option><option value="4">Kartu Kredit</option><option value="5">Akun Virtual</option><option value="6">Berinvestasi</option></select>
           <input id="na-bal" type="number" value="0" placeholder="Saldo Awal" class="w-full px-3 py-2 text-xs bg-slate-100 rounded-xl" />
           <button onclick="submitNewAccount()" class="w-full py-2.5 rounded-xl gradient-theme text-white text-xs font-bold">Simpan</button>
         </div>`;
